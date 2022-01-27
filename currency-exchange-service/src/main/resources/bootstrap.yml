@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: currency-exchange-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+
+server:
+  port: 8000
